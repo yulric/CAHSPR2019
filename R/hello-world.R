@@ -12,6 +12,8 @@ for(i in 1:numOfStepsToHalifax) {
         dotsToPrint <- paste(dotsToPrint, if(j == i) '✈' else '.')
     }
 
+    # Clear the console before next render so it seems like the plane is moving
+    cat("\014")
     # Print the output for the current step
     cat('OTTAWA', dotsToPrint, ' HALIFAX\n')
 }

@@ -11,5 +11,5 @@ for(i in 1:numOfStepsToHalifax) {
     }
 
     # Print the output for the current step
-    print(cat('OTTAWA', dotsToPrint, 'HALIFAX'))
+    cat('OTTAWA', dotsToPrint, 'HALIFAX\n')
 }

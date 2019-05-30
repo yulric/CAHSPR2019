@@ -17,3 +17,5 @@ for(i in 1:numOfStepsToHalifax) {
     # Print the output for the current step
     cat('OTTAWA', dotsToPrint, ' HALIFAX\n')
 }
+
+cat("----Hello CASPHR Audience----")

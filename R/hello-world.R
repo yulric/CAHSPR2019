@@ -18,4 +18,4 @@ for(i in 1:numOfStepsToHalifax) {
     cat('OTTAWA', dotsToPrint, ' HALIFAX\n')
 }
 
-cat("----Hello CASPHR Audience----")
+cat("!!!!Hello CASPHR 2019!!!!")

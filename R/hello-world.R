@@ -3,6 +3,8 @@ numOfStepsToHalifax <- 20
 
 # Go through each step
 for(i in 1:numOfStepsToHalifax) {
+    Sys.sleep(0.5)
+    
     # The dots that will be printed in the current step
     dotsToPrint <- ''
     # Going from step 1 to j, add a dot to the dotsToPrint

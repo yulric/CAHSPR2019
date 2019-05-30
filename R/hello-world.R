@@ -8,7 +8,7 @@ for(i in 1:numOfStepsToHalifax) {
     # The dots that will be printed in the current step
     dotsToPrint <- ''
     # Going from step 1 to j, add a dot to the dotsToPrint
-    for(j in 1:i) {
+    for(j in 1:numOfStepsToHalifax) {
         dotsToPrint <- paste(dotsToPrint, if(j == i) '✈' else '.')
     }
 

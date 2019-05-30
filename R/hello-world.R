@@ -1,5 +1,6 @@
 # The total number of dots to print to the screen
 numOfStepsToHalifax <- 20
+planeEmoji <- '✈️'
 
 # Go through each step
 for(i in 1:numOfStepsToHalifax) {
@@ -9,7 +10,7 @@ for(i in 1:numOfStepsToHalifax) {
     dotsToPrint <- ''
     # Going from step 1 to j, add a dot to the dotsToPrint
     for(j in 1:numOfStepsToHalifax) {
-        dotsToPrint <- paste(dotsToPrint, if(j == i) '✈' else '.')
+        dotsToPrint <- paste(dotsToPrint, if(j == i) planeEmoji else '.')
     }
 
     # Clear the console before next render so it seems like the plane is moving
